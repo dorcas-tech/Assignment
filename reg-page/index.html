@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>REGISTER</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form action="success.html">
+    <div class="container">
+      <h1>welcome to the writer's club!</h1>
+      <p>
+      <h3>please fill in the form to register!</h3>
+      </p>
+      <hr>
+
+      <label>First Name</label>
+      <input type="text" placeholder="input First Name only" name="fname" id="fname" required />
+
+      <label>Last Name</label>
+      <input type="text" placeholder="input Last Name only" name="lname" id="lname" required />
+
+      <label>Phone Number</label>
+      <input type="number" placeholder="input phone number" name="nmbr" id="nmbr" required />
+
+      <label>email</label>
+      <input type="text" placeholder="e.g bookworm@gmail.com" name="email" id="email" required />
+
+      <div class="select">
+        <select name="format" id="format">
+          <option selected disabled>click to select gender</option>
+          <option value="male">male</option>
+          <option value="female">female</option>
+
+        </select>
+      </div>
+
+
+      <label>Password</label>
+      <input type="password" placeholder="create password" name="psw" id="psw" required />
+
+      <label>Date of Birth</label>
+      <input type="date" placeholder="date o birth" name="date" id="date" required />
+
+      <label>Favorite Color</label>
+      <input type="color" placeholder="select color" />
+      <HR>
+      by registering, you agree to our <a href="#">terms and conditions</a>
+      <button type="submit" class="register">REGISTER</button>
+    </div>
+  </form>
+   <footer>copyright &copy; dorcaszuritask02.
+  </footer>
+</body>
+
+</html>
